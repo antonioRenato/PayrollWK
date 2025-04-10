@@ -10,7 +10,9 @@ namespace PayrollWK.ConsoleApp.Application.UseCases.HeadingRules
         public RegisterHeadingValidator()
         {
             RuleFor(h => h.Code).NotEmpty().WithMessage("Code is required!");
-            RuleFor(h => h.Code).LessThanOrEqualTo(9999).WithMessage("The code of Heading must be at least 4 digits ");
+            RuleFor(h => h.Code)
+                .Must(amount => amount.ToString(CultureInfo.InvariantCulture).Length == 4)
+                .WithMessage("The code of Heading must be at least 4 digits.");
             RuleFor(h => h.Description).NotEmpty().WithMessage("Description is required");
             RuleFor(h => h.Description).MaximumLength(40).WithMessage("The Description must be less than 40 characters");
             RuleFor(h => h.HeadingType).NotEqual(HeadingType.Unknown).WithMessage("The type must be 'P' or 'D'");

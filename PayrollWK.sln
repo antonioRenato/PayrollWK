@@ -7,7 +7,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{1F2863F1-D0F
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{DA265D7F-E471-4DE9-A2E9-CB0D15600FB0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PayrollWK.ConsoleApp", "PayrollWK.ConsoleApp\PayrollWK.ConsoleApp.csproj", "{984CB23D-3A37-4F9F-8847-233F508A59AB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PayrollWK.ConsoleApp", "PayrollWK.ConsoleApp\PayrollWK.ConsoleApp.csproj", "{984CB23D-3A37-4F9F-8847-233F508A59AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Validators.Tests", "Validators.Tests\Validators.Tests.csproj", "{BE896787-A5E4-4CCF-9788-F79B92380D17}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,12 +21,17 @@ Global
 		{984CB23D-3A37-4F9F-8847-233F508A59AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{984CB23D-3A37-4F9F-8847-233F508A59AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{984CB23D-3A37-4F9F-8847-233F508A59AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE896787-A5E4-4CCF-9788-F79B92380D17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE896787-A5E4-4CCF-9788-F79B92380D17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE896787-A5E4-4CCF-9788-F79B92380D17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE896787-A5E4-4CCF-9788-F79B92380D17}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{984CB23D-3A37-4F9F-8847-233F508A59AB} = {1F2863F1-D0F3-43EC-B018-526F269FEAF0}
+		{BE896787-A5E4-4CCF-9788-F79B92380D17} = {DA265D7F-E471-4DE9-A2E9-CB0D15600FB0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0E47D84A-CA3D-405E-B330-7E3E9757EEA2}
