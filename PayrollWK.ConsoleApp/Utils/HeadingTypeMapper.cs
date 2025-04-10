@@ -10,7 +10,7 @@ namespace PayrollWK.ConsoleApp.Utils
             {
                 "P" => HeadingType.Earnings,
                 "D" => HeadingType.Deductions,
-                _ => throw new InvalidDataException($"Tipo inválido: {input}")
+                _ => HeadingType.Unknown,
             };
         }
     }

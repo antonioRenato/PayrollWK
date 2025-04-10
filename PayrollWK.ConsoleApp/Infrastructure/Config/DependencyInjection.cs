@@ -11,6 +11,7 @@ namespace PayrollWK.ConsoleApp.Infrastructure.Config
             services.AddScoped<IINSSCalcService, INSSCalcService>();
             services.AddScoped<IIRCalcService, IRCalcService>();
             services.AddScoped<IPayrollCalcService, PayrollCalcService>();
+            services.AddSingleton<IValidationSummaryService, ValidationSummaryService>();
 
             return services;
         }
