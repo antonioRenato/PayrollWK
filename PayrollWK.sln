@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{1F2863F1-D0F3-43EC-B018-526F269FEAF0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{DA265D7F-E471-4DE9-A2E9-CB0D15600FB0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PayrollWK.ConsoleApp", "PayrollWK.ConsoleApp\PayrollWK.ConsoleApp.csproj", "{984CB23D-3A37-4F9F-8847-233F508A59AB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{984CB23D-3A37-4F9F-8847-233F508A59AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{984CB23D-3A37-4F9F-8847-233F508A59AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{984CB23D-3A37-4F9F-8847-233F508A59AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{984CB23D-3A37-4F9F-8847-233F508A59AB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{984CB23D-3A37-4F9F-8847-233F508A59AB} = {1F2863F1-D0F3-43EC-B018-526F269FEAF0}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0E47D84A-CA3D-405E-B330-7E3E9757EEA2}
+	EndGlobalSection
+EndGlobal
