@@ -20,18 +20,15 @@ namespace PayrollWK.ConsoleApp.Application.Services
         }
 
         public decimal ComputeDeductionINSS(decimal baseINSS)
-        {            
+        {
             decimal total = 0m;
 
             if (baseINSS > 4190.83m)
                 total += (baseINSS - 4190.83m) * 0.14m;
-
             if (baseINSS > 2793.88m)
-                total += (baseINSS > 4190.83m ? 4190.83m : baseINSS) - 2793.88m * 0.12m;
-
+                total += ((baseINSS > 4190.83m ? 4190.83m : baseINSS) - 2793.88m) * 0.12m;
             if (baseINSS > 1518.00m)
-                total += (baseINSS > 2793.88m ? 2793.88m : baseINSS) - 1518.00m * 0.09m;
-
+                total += ((baseINSS > 2793.88m ? 2793.88m : baseINSS) - 1518.00m) * 0.09m;
             if (baseINSS > 0)
                 total += (baseINSS > 1518.00m ? 1518.00m : baseINSS) * 0.075m;
 
